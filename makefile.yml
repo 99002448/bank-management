@@ -1,0 +1,3 @@
+
+bankmake: bank.c bank.h
+	gcc -o bankmake bankmake.c -I.
