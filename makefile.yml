@@ -1,3 +1,5 @@
+CC=gcc
+CFLAGS=-I.
 
-bankmake: bank.c 
-	gcc -o bankmake bank.c -I.
+bankmake: bank.o 
+     $(CC) -o bankmake bank.o
