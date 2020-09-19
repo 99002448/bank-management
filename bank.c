@@ -1,3 +1,4 @@
+#include "bank.h"
 
 void main(){
 	char pass[50],passw[50]="L&T";int i,ch,choice;
